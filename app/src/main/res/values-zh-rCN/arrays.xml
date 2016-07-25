@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="entries_list_preference">
+        <item>悬浮窗</item>
+      
+    </string-array>
+
+    <!-- Used in app/menu examples -->
+    <string-array name="entryvalues_list_preference">
+        <item>floatwindow</item>
+       
+    </string-array>
+</resources>

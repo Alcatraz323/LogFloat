@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/floatterminalLinearLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:visibility="gone">
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_weight="0.15">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:id="@+id/floatterminalTextView1"/>
+
+	</ScrollView>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="bottom"
+		android:layout_weight="0.85">
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:id="@+id/floatterminalEditText1"
+			android:layout_weight="0.9"/>
+
+		<ImageButton
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="45dp"
+			android:layout_width="wrap_content"
+			android:src="@drawable/ic_send"
+			android:layout_weight="0.1"
+			android:id="@+id/floatterminalImageButton1"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

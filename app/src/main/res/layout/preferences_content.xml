@@ -1,0 +1,51 @@
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory
+		android:title="@string/pref_cat_1">
+		<EditTextPreference
+			android:key="default_cmd"
+			android:defaultValue="logcat -v threadtime"
+			android:dialogTitle="@string/pref_et_1_cmd_title"
+			android:title="@string/pref_et_1_cmd_title"/>
+		<CheckBoxPreference
+			android:defaultValue="true"
+			android:key="root"
+			android:title="@string/pref_cb_1_root"
+			android:summary="@string/pref_cb_1_summary"/>
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/pref_cat_2">
+		<EditTextPreference
+			android:key="max"
+			android:defaultValue="32"
+			android:dialogTitle="@string/pref_et_2"
+			android:title="@string/pref_et_2"/>
+		<!--
+		<CheckBoxPreference
+			android:defaultValue="true"
+			android:key="autoref"
+			android:title="@string/pref_cb_2_autoref"
+			android:summary="@string/pref_cb_2_summary"/>-->
+		<!--
+		<EditTextPreference
+			android:dependency="autoref_rate"
+			android:layout="?android:attr/preferenceLayoutChild"
+			android:key="autoref_rate"
+			android:title="@string/pref_cb_2_et_child"
+			android:dialogTitle="@string/pref_cb_2_et_child"/>-->
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/pref_cat_3">
+		<ListPreference
+			android:defaultValue="floatwindow"
+			android:key="startmode"
+			android:title="@string/pref_list_start_mode"
+			android:entries="@array/entries_list_preference"
+			android:entryValues="@array/entryvalues_list_preference"
+			android:dialogTitle="@string/pref_list_start_mode" />
+		<CheckBoxPreference
+			android:key="runaftboot"
+			android:title="@string/pref_cb_3"/>
+	</PreferenceCategory>
+</PreferenceScreen>

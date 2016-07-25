@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimary">#3f51b5</item>
+		<item name="colorAccent">#3f51b5</item>
+		<item name="colorControlHighlight">#6468BD</item>
 	</style>
+	<style name="AppTheme.Night" parent="Theme.AppCompat.NoActionBar">
+		<item name="colorPrimary">#454545</item>
+		<item name="colorAccent">#3f51b5</item>
+		<item name="colorControlHighlight">#6468BD</item>
+	</style>
+	<style name="Toolbar" parent="ThemeOverlay.AppCompat.Dark"/>
 </resources>

@@ -3,5 +3,32 @@
 
     <string name="app_name">LogFloat</string>
     <string name="hello_world">Hello world!</string>
-
+	<string name="load">Loading...</string>
+	<string name="root_fail_t">Warning!</string>
+	<string name="root_fail_m">No root permission,you cant see the whole logcat record</string>
+	<string name="ad_pb">Yes</string>
+	<string name="ad_nb">No</string>
+	<string name="ad_title">Command</string>
+	<string name="ad_title_2">Filter</string>
+	<string name="ad_item">Package</string>
+	<string name="widget_alpha">View alpha</string>
+	<string name="action_pref">Preferences</string>
+	<string name="action_shutdown">Shutdown</string>
+	<string name="action_terminal">Terminal</string>
+	<string name="action_home">LogCat</string>
+	<string name="action_about">About</string>
+	<string name="pref_cat_1">Run</string>
+	<string name="pref_et_1_cmd_title">Default Command</string>
+	<string name="pref_cb_1_root">Root</string>
+	<string name="pref_cb_1_summary">Run su cmd before logact</string>
+	<string name="pref_cat_2">Output</string>
+	<string name="pref_et_2">Max element</string>
+	<string name="pref_cb_2_autoref">Auto-refresh</string>
+	<string name="pref_cb_2_summary">Auto-refresh views</string>
+	<string name="pref_cb_2_et_child">Auto-refresh rate</string>
+	<string name="pref_cat_3">View</string>
+	<string name="pref_list_start_mode">Start Mode</string>
+	<string name="pref_list_item1">Float Window</string>
+	<string name="pref_list_item2">Activity</string>
+	<string name="pref_cb_3">Run after boot</string>
 </resources>
